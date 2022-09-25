@@ -1,0 +1,35 @@
+.product-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  position: relative;
+}
+
+.product-card-container img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+
+.product-card-container button {
+  width: 80%;
+  height: 8%;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.product-card-container .add-button {
+  top: 255px;
+}
+
+.product-card-container .remove-button {
+  top: 290px;
+}
+
+button:hover {
+  background-color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
